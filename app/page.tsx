@@ -1,5 +1,5 @@
 "use client";
-import react,{ useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
   const [list,updatelist]=useState<string[]>([]);
